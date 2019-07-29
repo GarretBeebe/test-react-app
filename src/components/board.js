@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './square';
-import { calculateWinner } from './helpers'
+import { calculateWinner } from '../helpers'
 
 export class Board extends React.Component {
     constructor(props) {
